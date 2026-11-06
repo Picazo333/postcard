@@ -1,0 +1,41 @@
+[
+  {
+    "file": "OFFICIAL_README.md",
+    "official_path": "README.md",
+    "resource_uri": "repo://4GeeksAcademy/exercise-postcard/sha/d449b939e301fca604c60b25239f3a2ec5327735/contents/README.md",
+    "download_url": "https://raw.githubusercontent.com/4GeeksAcademy/exercise-postcard/d449b939e301fca604c60b25239f3a2ec5327735/README.md",
+    "sha256": "ed2991668e5266bc2d3e32ba3b4b8f2106f8af7cb28caa294db1cedd0d2c8393",
+    "method": "curl_raw_githubusercontent",
+    "fetched_at": "2026-11-06 America/Mexico_City",
+    "registry_slug": "postcard",
+    "source_repo": "4GeeksAcademy/exercise-postcard",
+    "commit": "d449b939e301fca604c60b25239f3a2ec5327735",
+    "upstream_parent": "breatheco-de/exercise-postcard"
+  },
+  {
+    "file": "OFFICIAL_README.es.md",
+    "official_path": "README.es.md",
+    "resource_uri": "repo://4GeeksAcademy/exercise-postcard/sha/d449b939e301fca604c60b25239f3a2ec5327735/contents/README.es.md",
+    "download_url": "https://raw.githubusercontent.com/4GeeksAcademy/exercise-postcard/d449b939e301fca604c60b25239f3a2ec5327735/README.es.md",
+    "sha256": "73ccf6105a7496f394f9e131d82ce63ea8172b41c99634f85493267c1caef9e9",
+    "method": "curl_raw_githubusercontent",
+    "fetched_at": "2026-11-06 America/Mexico_City",
+    "registry_slug": "postcard",
+    "source_repo": "4GeeksAcademy/exercise-postcard",
+    "commit": "d449b939e301fca604c60b25239f3a2ec5327735",
+    "upstream_parent": "breatheco-de/exercise-postcard"
+  },
+  {
+    "file": "learn.json",
+    "official_path": "learn.json",
+    "resource_uri": "repo://4GeeksAcademy/exercise-postcard/sha/d449b939e301fca604c60b25239f3a2ec5327735/contents/learn.json",
+    "download_url": "https://raw.githubusercontent.com/4GeeksAcademy/exercise-postcard/d449b939e301fca604c60b25239f3a2ec5327735/learn.json",
+    "sha256": "fd24c7b5b716ca92f13dacdca5f940b618528e71a17efe8a435ea6583ca6c7ae",
+    "method": "curl_raw_githubusercontent",
+    "fetched_at": "2026-11-06 America/Mexico_City",
+    "registry_slug": "postcard",
+    "source_repo": "4GeeksAcademy/exercise-postcard",
+    "commit": "d449b939e301fca604c60b25239f3a2ec5327735",
+    "upstream_parent": "breatheco-de/exercise-postcard"
+  }
+]

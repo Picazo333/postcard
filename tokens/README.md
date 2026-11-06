@@ -1,0 +1,1 @@
+Base tokens.css/tokens.json preservados de SIGNAL1.1.0. motion.json/motion.css son extensión normativa4.0.0 y prevalecen en comportamiento de firma. Importar base antes de extensión; etiquetar nodos animados data-motion-node. CSS no cancela WAAPI/rAF: implementar también la lógica del contrato. La paleta y tipo no cambian.

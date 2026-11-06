@@ -1,0 +1,16 @@
+{
+  "name": "postcard",
+  "private": true,
+  "description": "Digital postcard for the 4Geeks HTML/CSS exercise.",
+  "scripts": {
+    "test": "node scripts/validate.mjs && jest --config jest.config.js",
+    "test:official": "jest --config jest.config.js",
+    "start": "python3 -m http.server 4173"
+  },
+  "devDependencies": {
+    "css-tree": "^3.2.1",
+    "html-validate": "^11.18.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}
