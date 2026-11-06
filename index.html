@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Postcard</title>
+    <meta name="description" content="Digital postcard built with HTML and CSS: My Postcard, from the 4Geeks exercise.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href=".learn/assets/4geeks.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&amp;display=swap">
+</head>
+<body>
+    <a class="skip-link" href="#postcard">Skip to postcard</a>
+    <main>
+        <div class="postcard" id="postcard">
+            <div class="postcard-header">
+                <h1>My Postcard</h1>
+                <img src="https://raw.githubusercontent.com/breatheco-de/exercise-postcard/e63a7916530cc850bd92aa1c2e19191837fb5c80/.learn/assets/4geeks.png" alt="4Geeks" width="50" height="50">
+            </div>
+            <div class="postcard-body">
+                <div class="body-left">
+                    <p>Look how awesome! This is a postcard that I created using HTML5 and CSS3 during my 4Geeks Academy Course!</p>
+                    <p>This is so cool, can't wait to start doing more stuff!</p>
+                </div>
+                <div class="body-right">
+                    <form id="postcard-form" action="#postcard" method="get">
+                        <div class="field">
+                            <label for="postcard-name">Name</label>
+                            <input id="postcard-name" name="name" type="text" placeholder="Some Name" autocomplete="name">
+                        </div>
+                        <div class="field">
+                            <label for="postcard-email">Email</label>
+                            <input id="postcard-email" name="email" type="text" placeholder="Some Email" autocomplete="email" inputmode="email">
+                        </div>
+                        <div class="field">
+                            <label for="postcard-comment">Comment</label>
+                            <input id="postcard-comment" name="comment" type="text" placeholder="Some comment" autocomplete="off">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="postcard-footer">
+                <button type="submit" form="postcard-form">Send My Postcard</button>
+            </div>
+        </div>
+        <p id="postcard-status" class="postcard-status" role="status" data-motion-node hidden></p>
+    </main>
+    <footer class="page-footer">
+        <img class="lockup lockup-horizontal" src="brand/lockups/signal-horizontal.svg" alt="4Geeks por Divinivid" width="400" height="64">
+        <img class="lockup lockup-stacked" src="brand/lockups/signal-stacked.svg" alt="4Geeks por Divinivid" width="280" height="140">
+        <p class="page-footer__note">Academic visual credit. Not an official partnership.</p>
+    </footer>
+    <script src="postcard.js"></script>
+</body>
+</html>
